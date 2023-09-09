@@ -6,8 +6,8 @@ with-compiler: ghc-9.2.5
 -- that doesn't compile on GHC9.
 source-repository-package
     type: git
-    location: https://github.com/ucsd-progsys/liquidhaskell.git
-    tag: 1c659985d53f960ef0b0bccc3ecfb75378a07075
+    location: https://github.com/hobbitProg/liquidhaskell.git
+    tag: ea3988fda18eb3f964e2dcc6cbfc2e2a5042683b
     subdir: . liquidhaskell-boot liquid-prelude liquid-vector
 
 -- We need this version of liquid-fixpoint as it dropped the dependency on text-format,
@@ -20,7 +20,7 @@ source-repository-package
 source-repository-package
     type: git
     location: https://github.com/hobbitProg/liquid-ghc-prim.git
-    tag: ceb3666a49c3adb125bdfd707d1a54c429b17574
+    tag: 0647713dd262d228d29520103f6bb79a0582380a
 
 constraints:
   base == 4.16.4.0

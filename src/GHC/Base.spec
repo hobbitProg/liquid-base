@@ -21,6 +21,8 @@ map       :: (a -> b) -> xs:[a] -> {v: [b] | len v == len xs}
 ($)       :: (a -> b) -> a -> b
 id        :: x:a -> {v:a | v = x}
 
+fmap      :: (a -> b) -> f a -> f b
+
 qualif IsEmp(v:GHC.Types.Bool, xs: [a]) : (v <=> (len xs > 0))
 qualif IsEmp(v:GHC.Types.Bool, xs: [a]) : (v <=> (len xs = 0))
 

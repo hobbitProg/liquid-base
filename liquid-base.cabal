@@ -164,7 +164,7 @@ library
                     GHC.IO.Encoding.UTF8
                     GHC.IO.Exception
                     GHC.IO.FD
-                    GHC.IO.Handle
+--                    GHC.IO.Handle
                     GHC.IO.Handle.FD
                     GHC.IO.Handle.Internals
                     GHC.IO.Handle.Lock

@@ -17,7 +17,7 @@ import GHC.Err
 
 //  GHC.Types.D# :: x:_ -> {v:_ | v = x}
 
-GHC.Err.error :: {v:_ | false} -> a 
+// GHC.Err.error :: {v:_ | false} -> a 
 
 // assume GHC.Integer.smallInteger :: x:GHC.Prim.Int# -> { v:GHC.Integer.Type | v = (x :: int) }
 
